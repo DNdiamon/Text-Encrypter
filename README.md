@@ -17,6 +17,7 @@ $ python3 encrypter.py ./text.txt
 How to decode the encrypted string
 
 ```python
-text_num = text.split("&@!&")
-print(chr(int(text_num[0])))
+>>> text = "72&@!&101&@!&108&@!&108&@!&111&@!&32&@!&87&@!&111&@!&114&@!&108&@!&100&@!&" # This is the encoded string
+>>> text_num = text.split("&@!&")
+>>> print(chr(int(text_num[0])))
 ```
