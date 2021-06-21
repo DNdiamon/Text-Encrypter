@@ -2,6 +2,8 @@
 
 Encrypts text with python
 
+### Make Sure That You Have Python
+
 ## Examples
 
 ```bash
